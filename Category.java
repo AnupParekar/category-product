@@ -1,7 +1,8 @@
 package com.entity;
 
+
 import jakarta.persistence.*;
-import java.util.List;
+import java.util.*;
 
 @Entity
 public class Category {
@@ -12,18 +13,7 @@ public class Category {
     private String name;
 
     @OneToMany(mappedBy = "category", cascade = CascadeType.ALL)
-    private List<Product> products;
-    
-    public Category() {
-    	super();
-    }
-    
-    public Category(Long id, String name, List<Product> products) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.products = products;
-	}
+    private List<Product> products = new ArrayList<>();
 
 	public Long getId() {
 		return id;
@@ -49,8 +39,7 @@ public class Category {
 		this.products = products;
 	}
 
-
-	
-
-    
+    // getters & setters
 }
+
+
