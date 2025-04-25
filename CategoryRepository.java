@@ -1,4 +1,4 @@
-package com.nimap.repository;
+package com.repository;
 
 import com.nimap.entity.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
