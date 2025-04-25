@@ -1,4 +1,4 @@
-package com.nimap.dto;
+package com.dto;
 
 public class ProductDTO {
 	  private Long id;
