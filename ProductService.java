@@ -1,4 +1,4 @@
-package com.nimap.service;
+package com.service;
 
 import com.nimap.dto.CategoryDTO;
 import com.nimap.dto.ProductDTO;
