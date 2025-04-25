@@ -1,4 +1,4 @@
-package com.nimap.controller;
+package com.controller;
 
 import com.nimap.dto.ProductDTO;
 import com.nimap.entity.Product;
